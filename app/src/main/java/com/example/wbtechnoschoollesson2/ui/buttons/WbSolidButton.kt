@@ -55,8 +55,6 @@ fun GreetingPreview() {
                 textColor = Color.White,
                 onClick = { /*TODO*/ }
             )
-
         }
-
     }
 }
