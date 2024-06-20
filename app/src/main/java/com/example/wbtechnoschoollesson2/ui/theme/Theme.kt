@@ -14,6 +14,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import com.example.wbtechnoschoollesson2.WbColor
 import com.example.wbtechnoschoollesson2.color
+import com.example.wbtechnoschoollesson2.ui.typography.WbTypography
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
@@ -66,6 +67,5 @@ object UiTheme{
         @Composable
         get() = color
 
-
-   // val typography: WbTypography = WbTypography()
+   val typography: WbTypography = WbTypography()
 }
